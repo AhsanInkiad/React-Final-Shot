@@ -3,9 +3,9 @@ import { useState } from "react"
 export function KeyProp2() {
     const [items, setItems] = useState(
         [
-            { id: "a1", name: "apple" },
-            { id: "a2", name: "orange" },
-            { id: "a3", name: "pear" }
+            { id: "a1", name: "Name" },
+            { id: "a2", name: "Id" },
+            { id: "a3", name: "Number" }
         ]
     )
 
