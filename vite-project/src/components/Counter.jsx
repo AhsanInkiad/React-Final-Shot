@@ -9,9 +9,9 @@ export function Counter({ name }) {
                 {name}
             </div>
             <div className="flex gap-3">
-                <button onClick={() => setCount(c => c - 1)}>-</button>
+                <button onClick={() => setCount( count - 1)}>-</button>
                 {count}
-                <button onClick={() => setCount(c => c + 1)}>+</button>
+                <button onClick={() => setCount( count + 1)}>+</button>
             </div>
         </div>
     )
