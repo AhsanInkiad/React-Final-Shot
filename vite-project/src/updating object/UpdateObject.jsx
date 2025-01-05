@@ -6,12 +6,7 @@ export default function UpdateObject() {
             name: "Tasin",
             age: "30",
             number: "69",
-            address:"asdasd",
-            gf: {
-                punom: "yes",
-                nafisa: "yes",
-                mahmota: "no"
-            }
+            address:"asdasd"
         }
     )
 
