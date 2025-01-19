@@ -6,6 +6,7 @@ import { KeyProp3 } from './key props/KeyProp3'
 
 import State1 from './series of state updates/State1'
 import UpdateObject from './updating object/UpdateObject'
+import TaskApp2 from './with reducer/TaskApp2'
 import TaskApp from './without reducer/TaskApp'
 
 
@@ -21,10 +22,16 @@ function App() {
       <ParentComponent></ParentComponent>
       <div className='flex justify-center p-6 items-center'>
         <div className='border border-black p-6'>
-         <TaskApp></TaskApp>
+          <TaskApp></TaskApp>
         </div>
-
       </div>
+
+      <div className='flex justify-center p-6 items-center'>
+        <div className='border border-black p-6'>
+          <TaskApp2></TaskApp2>
+        </div>
+      </div>
+
 
     </>
   )
